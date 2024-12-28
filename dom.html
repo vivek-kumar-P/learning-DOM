@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+    h1{
+        padding: 10px;
+        background-color: gray;
+    }
+    .highlight{
+        background-color: yellow;
+        font-weight: bold;
+        color: #1a1a1a;
+    }
+
+    #myparagraph{
+        background-color: #fff;
+        padding: 10px;
+    }
+    #changetextbutton{
+        padding: 10px;
+        background-color: hotpink;
+    }
+
+
+</style>
+<body>
+    <div class="example1">
+        <h1>hello world..!</h1>
+        <p style="color: black;" id="myparagraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, exercitationem.</p>
+        <button id="changetextbutton">click here</button>
+    </div>
+
+
+    <div id="example2">
+        <h2>traversing the dom</h2>
+        <ul id="citieslist">
+            <li>new york</li>
+            <li>tokyo</li>
+            <li>paris</li>
+            <li>london</li>
+        </ul>
+        <button id="highlightfirstcity">highlight first city</button>
+    </div>
+
+    <section id="example3">
+        <h2>mnipulating dom elements</h2>
+        <div id="coffeeorder">order: <span id="coffeetype">latte</span></div>
+        <button id="changeorder">change order to espresso</button>
+    </section>
+
+    <section id="example4">
+        <h2>creating and insterting elements</h2>
+        <button id="addnewiteams">add a new iteam to the shopping list</button>
+        <ul id="shoppinglist">
+            <li>eggs</li>
+            <li>bread</li>
+            <li>milk</li>
+        </ul>
+    </section>
+
+
+    <section id="example5">
+        <h2>removing an element</h2>
+        <ul id="tasklist">
+            <li>task2</li>
+            <li>task2</li>
+            <li>task3</li>
+        </ul>
+        <button id="removelasttask">remove last task</button>
+    </section>
+
+
+    <section id="exampl-7">
+        <h2>event deligation</h2>
+        <ul id="tealist">
+            <li id="teaitem">green tea</li>
+            <li id="teaitem">black tea</li>
+            <li id="teaitem">oolong tea</li>
+        </ul>
+        <p>click on any tea to select it</p>
+    </section>
+
+    <section id="example-8">
+        <h2>form handling</h2>
+        <form  id="feedbackform">
+            <label for="feedbackinput">your feedback:</label>
+            <input type="text" id="feedbackinput" placeholder="enter feedback"/>
+            <button type="submit"> submit feedback</button>
+        </form>
+        <p id="feedbackdisplay"></p>
+    </section>
+
+
+    <section id="example-9">
+        <h2>dom content loaded</h2>
+        <p id="domstatus">waiting for dom to load...........</p>
+    </section>
+
+
+
+    <section id="example-10">
+        <h2>css classes mnipulation</h2>
+        <p id="descriptiontext">this text will change the color..!</p>
+        <button id="togglehighlight">toggle highlight</button>
+    </section>
+    
+
+     <script src="script.js"></script>
+</body>
+</html>
